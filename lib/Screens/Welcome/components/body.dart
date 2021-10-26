@@ -17,12 +17,12 @@ class Body extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
-              "WELCOME TO EDU",
-              style: TextStyle(fontWeight: FontWeight.bold),
+              "Welcome to newStudent",
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
             ),
             SizedBox(height: size.height * 0.05),
             SvgPicture.asset(
-              "assets/icons/chat.svg",
+              "assets/icons/upc_logo.svg",
               height: size.height * 0.45,
             ),
             SizedBox(height: size.height * 0.05),

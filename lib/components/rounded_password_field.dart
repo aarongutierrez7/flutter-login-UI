@@ -31,4 +31,9 @@ class RoundedPasswordField extends StatelessWidget {
       ),
     );
   }
+
+  State<StatefulWidget> createState() {
+    // TODO: implement createState
+    throw UnimplementedError();
+  }
 }

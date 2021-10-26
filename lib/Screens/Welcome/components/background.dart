@@ -21,17 +21,18 @@ class Background extends StatelessWidget {
             left: 0,
             child: Image.asset(
               "assets/images/main_top.png",
+              color: Color(0xFF87CEFA),
               width: size.width * 0.3,
             ),
           ),
-          Positioned(
+          /*Positioned(
             bottom: 0,
             left: 0,
             child: Image.asset(
               "assets/images/main_bottom.png",
               width: size.width * 0.2,
             ),
-          ),
+          ),*/
           child,
         ],
       ),

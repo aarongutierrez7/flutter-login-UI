@@ -22,6 +22,7 @@ class Background extends StatelessWidget {
             left: 0,
             child: Image.asset(
               "assets/images/signup_top.png",
+              color: Color(0xFF87CEFA),
               width: size.width * 0.35,
             ),
           ),
@@ -30,6 +31,7 @@ class Background extends StatelessWidget {
             left: 0,
             child: Image.asset(
               "assets/images/main_bottom.png",
+              color: Color(0xFF87CEFA),
               width: size.width * 0.25,
             ),
           ),
